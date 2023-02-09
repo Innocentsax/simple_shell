@@ -1,0 +1,9 @@
+help: help
+    Display information about builtin commands.
+
+    Displays brief summaries of builtin commands.  If PATTERN is
+    specified, gives detailed help on all commands matching PATTERN,
+    otherwise the list of help topics is printed.
+
+    Exit Status:
+    Returns success unless PATTERN is not found or an invalid option is given.
