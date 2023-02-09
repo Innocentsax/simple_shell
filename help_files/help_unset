@@ -1,0 +1,9 @@
+ unset: unset
+    Unset values and attributes of shell variables and functions.
+
+    For each NAME, remove the corresponding variable or function.
+    Without options, unset first tries to unset a variable, and if that fails,
+
+    Exit Status:
+    Returns success unless an invalid option is given or a NAME is read-only.
+Footer
