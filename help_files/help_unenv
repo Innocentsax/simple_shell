@@ -1,0 +1,9 @@
+unsetenv: unsetenv
+	Remove each NAME from the list of defined environment variables.
+
+	Options:
+	NONE. I mean, really, who do you think wrote this? Ken Thompson or Dennis Ritchie?
+
+
+	No...
+	Return success unless a NAME is not an existing alias.
